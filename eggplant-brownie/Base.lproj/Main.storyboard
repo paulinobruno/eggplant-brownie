@@ -50,13 +50,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
-                                    <action selector="add" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXO-5F-XUS"/>
+                                    <action selector="add" destination="BYZ-38-t0r" eventType="touchUpInside" id="hwL-Al-Xcx"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="happinessField" destination="OCo-56-ZMI" id="vvi-pn-Odq"/>
+                        <outlet property="nameField" destination="u0c-i1-edu" id="j4b-bk-hTs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
