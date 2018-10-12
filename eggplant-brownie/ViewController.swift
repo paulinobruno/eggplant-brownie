@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    
     @IBAction
     func add() {
-        print("eaten");
+        let name = "eggplant brownie"
+        let happiness = "5"
+        
+        print("eaten \(name) with happiness \(happiness)!")
     }
     
 }
