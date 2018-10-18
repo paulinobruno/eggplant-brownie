@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6BC637CC21712EB90087F0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC637CB21712EB90087F0E9 /* AppDelegate.swift */; };
-		6BC637CE21712EB90087F0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC637CD21712EB90087F0E9 /* ViewController.swift */; };
-		6BC637D121712EB90087F0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC637CF21712EB90087F0E9 /* Main.storyboard */; };
 		6BC637D321712EBA0087F0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC637D221712EBA0087F0E9 /* Assets.xcassets */; };
 		6BC637D621712EBA0087F0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC637D421712EBA0087F0E9 /* LaunchScreen.storyboard */; };
 		6BC637E121712EBA0087F0E9 /* eggplant_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC637E021712EBA0087F0E9 /* eggplant_brownieTests.swift */; };
 		6BC637EC21712EBA0087F0E9 /* eggplant_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC637EB21712EBA0087F0E9 /* eggplant_brownieUITests.swift */; };
+		6BD968D621757E2300E9C059 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD968D521757E2300E9C059 /* Meal.swift */; };
+		6BD968D821757E4700E9C059 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD968D721757E4700E9C059 /* Item.swift */; };
+		6BD968DA21757F5A00E9C059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD968D921757F5A00E9C059 /* ViewController.swift */; };
+		6BD968DC21757F8E00E9C059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD968DB21757F8E00E9C059 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +38,6 @@
 /* Begin PBXFileReference section */
 		6BC637C821712EB90087F0E9 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC637CB21712EB90087F0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6BC637CD21712EB90087F0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6BC637D021712EB90087F0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BC637D221712EBA0087F0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC637D521712EBA0087F0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BC637D721712EBA0087F0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,11 @@
 		6BC637E721712EBA0087F0E9 /* eggplant-brownieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC637EB21712EBA0087F0E9 /* eggplant_brownieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieUITests.swift; sourceTree = "<group>"; };
 		6BC637ED21712EBA0087F0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD968D021756FB900E9C059 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6BD968D521757E2300E9C059 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		6BD968D721757E4700E9C059 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6BD968D921757F5A00E9C059 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BD968DB21757F8E00E9C059 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "eggplant-brownie/views/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +102,14 @@
 		6BC637CA21712EB90087F0E9 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				6BD968D321757DE900E9C059 /* models */,
+				6BD968D421757DE900E9C059 /* viewcontrollers */,
+				6BD968D221757DE900E9C059 /* views */,
 				6BC637CB21712EB90087F0E9 /* AppDelegate.swift */,
-				6BC637CD21712EB90087F0E9 /* ViewController.swift */,
-				6BC637CF21712EB90087F0E9 /* Main.storyboard */,
 				6BC637D221712EBA0087F0E9 /* Assets.xcassets */,
 				6BC637D421712EBA0087F0E9 /* LaunchScreen.storyboard */,
 				6BC637D721712EBA0087F0E9 /* Info.plist */,
+				6BD968D021756FB900E9C059 /* MyPlayground.playground */,
 			);
 			path = "eggplant-brownie";
 			sourceTree = "<group>";
@@ -123,6 +130,31 @@
 				6BC637ED21712EBA0087F0E9 /* Info.plist */,
 			);
 			path = "eggplant-brownieUITests";
+			sourceTree = "<group>";
+		};
+		6BD968D221757DE900E9C059 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6BD968DB21757F8E00E9C059 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6BD968D321757DE900E9C059 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6BD968D521757E2300E9C059 /* Meal.swift */,
+				6BD968D721757E4700E9C059 /* Item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6BD968D421757DE900E9C059 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				6BD968D921757F5A00E9C059 /* ViewController.swift */,
+			);
+			path = viewcontrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD968DC21757F8E00E9C059 /* Main.storyboard in Resources */,
 				6BC637D621712EBA0087F0E9 /* LaunchScreen.storyboard in Resources */,
 				6BC637D321712EBA0087F0E9 /* Assets.xcassets in Resources */,
-				6BC637D121712EB90087F0E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC637CE21712EB90087F0E9 /* ViewController.swift in Sources */,
+				6BD968D821757E4700E9C059 /* Item.swift in Sources */,
+				6BD968D621757E2300E9C059 /* Meal.swift in Sources */,
+				6BD968DA21757F5A00E9C059 /* ViewController.swift in Sources */,
 				6BC637CC21712EB90087F0E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6BC637CF21712EB90087F0E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6BC637D021712EB90087F0E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6BC637D421712EBA0087F0E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
