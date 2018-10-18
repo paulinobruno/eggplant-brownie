@@ -16,6 +16,7 @@
 		6BD968D821757E4700E9C059 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD968D721757E4700E9C059 /* Item.swift */; };
 		6BD968DA21757F5A00E9C059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD968D921757F5A00E9C059 /* ViewController.swift */; };
 		6BD968DC21757F8E00E9C059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD968DB21757F8E00E9C059 /* Main.storyboard */; };
+		6BD969522178234D00E9C059 /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD969512178234D00E9C059 /* MealsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		6BD968D721757E4700E9C059 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		6BD968D921757F5A00E9C059 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BD968DB21757F8E00E9C059 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "eggplant-brownie/views/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		6BD969512178234D00E9C059 /* MealsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				6BD968D921757F5A00E9C059 /* ViewController.swift */,
+				6BD969512178234D00E9C059 /* MealsTableViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD969522178234D00E9C059 /* MealsTableViewController.swift in Sources */,
 				6BD968D821757E4700E9C059 /* Item.swift in Sources */,
 				6BD968D621757E2300E9C059 /* Meal.swift in Sources */,
 				6BD968DA21757F5A00E9C059 /* ViewController.swift in Sources */,
